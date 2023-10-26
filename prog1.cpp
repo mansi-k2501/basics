@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-main()
+int main()
 {
    int marks[5];
    int sum=0;
    for(int i=0;i<5;i++)
    {
-    cout<<"enter marks in subject :">>i>>endl;
+    cout<<"enter marks in subject "<<i+1<<endl;
     cin>>marks[i];
     sum=sum+marks[i];
    }
